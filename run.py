@@ -98,8 +98,6 @@ async def on_ready():
         print(f'Channel with ID {config["Main"]["channel_id"]} not found.')
         await client.close()
     print('{0.user} is now ready.'.format(client))
-    startup_message = (f'{client.user} is now ready. Version {version}, branch {branch}, commit {commit[0:7]}, '
-                       f'Python {pyver}')
     await client.channel.send(startup_message)
     print(startup_message)
     client.already_ready = True
