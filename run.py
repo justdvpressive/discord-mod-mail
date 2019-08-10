@@ -297,4 +297,4 @@ async def on_message(message):
                 await asyncio.sleep(2)
                 anti_duplicate_replies[command_name] = False
 
-client.run(config['Main']['token'])
+client.run('NTc0OTUxNzIyOTgwNjA1OTcz.XU548g.Rm-Av2XE00AlAkOp0glmLjjK608')
